@@ -34,4 +34,14 @@
 - Different Dev and Production bundles
 
 # JSX
+
 - JSX is not HTML inside Javascript its HTML or XML like syntax
+- JSX is nothing but a React Eelement at the end of the day.
+- JSX prevents the melicious data form any api to get injected in our code as it purifies it before injecting.
+
+# Components
+
+- Components are simple Javascript functions which returs JSX.
+- As Components are functions so we can also write Javascript inside it and then return the JSX React Eelement.
+- Component composition meanst that combining two or more components together.
+- Component name must starts with a capital letter so react is able to identify it as a component.
