@@ -24,9 +24,12 @@ const HeaderComponent = () => {
   );
 };
 const App = () => {
+  // We can call any component by using below three ways as its a Javascript we can call components like a function as well inside JSX
   return (
     <>
       <HeaderComponent />
+      <HeaderComponent></HeaderComponent>
+      {HeaderComponent()}
     </>
   );
 };
